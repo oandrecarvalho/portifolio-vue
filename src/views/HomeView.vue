@@ -2,7 +2,7 @@
   <div
     class="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-800 via-indigo-700 to-purple-800 p-6 text-gray-100">
     <div
-      class="w-full max-w-3xl bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-lg text-center">
+      class="transition-transform duration-500 hover:scale-105 w-full max-w-3xl bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 shadow-lg text-center">
 
       <!-- Mensagem de boas-vindas -->
       <img class="mx-auto"
