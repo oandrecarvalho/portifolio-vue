@@ -1,37 +1,33 @@
-# ========== LOGS E ARQUIVOS TEMPORÁRIOS ==========
-logs
-*.log                       # Arquivos de log genéricos
-npm-debug.log*              # Logs de erro do npm
-yarn-debug.log*             # Logs de erro do yarn
-yarn-error.log*
-pnpm-debug.log*            # Logs de erro do pnpm
-lerna-debug.log*           # Logs de erro do Lerna (monorepo)
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
 
-# ========== DEPENDÊNCIAS ==========
-node_modules/              # Diretório de dependências do Node (NUNCA versionar isso)
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
-# ========== SISTEMAS DE COMPILAÇÃO / BUILD ==========
-dist                       # Pasta de build do Vite (output final)
-dist-ssr                   # Build para SSR (Server-Side Rendering)
-coverage                   # Relatórios de cobertura de testes
-*.local                    # Arquivos de configuração locais
+# Testing
+coverage/
+cypress/videos/
+cypress/screenshots/
 
-# ========== CYPRESS (TESTES AUTOMATIZADOS) ==========
-/cypress/videos/           # Gravações de testes
-/cypress/screenshots/      # Prints dos testes
+# System
+.DS_Store
 
-# ========== ARQUIVOS DO SISTEMA ==========
-.DS_Store                  # Arquivo oculto do macOS
+# Editor
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# ========== CONFIGURAÇÕES DE EDITORES ==========
-.vscode/*                  # Ignora toda a pasta .vscode
-!.vscode/extensions.json   # Exceto o arquivo de extensões recomendadas (útil para padronizar ambiente)
-.idea                      # Configurações do WebStorm/IntelliJ
-*.suo                      # Visual Studio
-*.ntvs*                    # Node.js Tools for Visual Studio
-*.njsproj                  # Node.js Project para VS
-*.sln                      # Soluções do Visual Studio
-*.sw?                      # Arquivos temporários de edição (ex: .swp, .swo)
-
-# ========== TYPESCRIPT ==========
-*.tsbuildinfo              # Arquivo gerado com informações de build do TypeScript
+# TypeScript
+*.tsbuildinfo
