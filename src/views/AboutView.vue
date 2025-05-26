@@ -66,7 +66,8 @@
       <div>
         <h3 class="text-xl font-semibold mb-3 border-b border-purple-400 pb-2 text-center">🚀 Meus Projetos</h3>
         <ul class="list-disc list-inside space-y-2 text-indigo-200 max-w-2xl">
-          <li><a href=""></a> Sistema de FAQ com Vue.js, API C# .NET e Tailwind (Fábrica de Projetos)</li>
+          <li><a href="">Sistema de FAQ com Vue.js, API C# .NET e Tailwind (Fábrica de Projetos) - Em Andamento.</a>
+          </li>
           <li><a href="https://github.com/oandrecarvalho/gestao-financas-csharp">App de Finanças Pessoais em C#</a></li>
           <li><a href="https://oandrecarvalho.github.io/pagina-de-login/">Página de Login</a></li>
           <li><a href="https://oandrecarvalho.github.io/api-rick-and-morty/">Consumo da API de Rick and Morty</a></li>
@@ -74,7 +75,7 @@
               extensão de CORS no navegador para visualizar corretamente)</a></li>
           <li><a href="https://github.com/oandrecarvalho/projeto-tailwind">Landing Page com Tailwind sobre trabalho de
               Fábrica de Projetos</a></li>
-          <li>Portfólio Pessoal com Vue 3 + Tailwind</li>
+          <li><a href="">Portfólio Pessoal com Vue 3 + Tailwind - Em Andamento</a></li>
         </ul>
       </div>
 
